@@ -27,10 +27,11 @@ BEGIN
     END IF
 
     IF letterGrade == 'F'
-        status = "FAIL"
+        status = "YOU FAILED!"
     ELSE
-        status = "PASS"
+        status = "YOU SHALL PASS!!!"
     END IF
 
     DISPLAY final report: studentName, grades, totalScore, averageScore, letterGrade, status
+
 END
